@@ -1,0 +1,10 @@
+product/app/WebViewGoogle/WebViewGoogle.apk.xz
+product/priv-app/Velvet/Velvet.apk.xz
+product/priv-app/Messages/Messages.apk.xz
+product/priv-app/GmsCore/GmsCore.apk.xz
+system/system/app/HoneyBoard/HoneyBoard.apk.xz
+system/system/priv-app/OneDrive_Samsung_v3/OneDrive_Samsung_v3.apk.xz
+system/system/priv-app/AREmojiEditor/AREmojiEditor.apk.xz
+system/system/priv-app/SumeNNService/SumeNNService.apk.xz
+system/system/system_ext/apex/com.android.vndk.v30.apex.xz
+vendor/etc/saiv/aisolution_1.0/CIGSOL_17_lowlight_PAPAYA.nnc.xz
