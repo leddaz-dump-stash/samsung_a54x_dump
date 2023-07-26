@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<MediaCodecs>
+    <Decoders>
+        <MediaCodec name="c2.exynos.h264.decoder" type="video/avc" update="true">
+            <!-- measured 90%:323-418 med:331 SLOW N=6 -->
+            <Limit name="measured-frame-rate-320x240" range="904-911" /> <!-- v90%=1.1 -->
+            <!-- measured 90%:262-456 med:311 SLOW N=8 -->
+            <Limit name="measured-frame-rate-720x480" range="796-867" /> <!-- v90%=1.3 -->
+            <!-- measured 90%:332-623 med:365 SLOW N=8 -->
+            <Limit name="measured-frame-rate-1280x720" range="788-795" /> <!-- v90%=1.4 -->
+            <!-- measured 90%:273-285 med:274 N=6 -->
+            <Limit name="measured-frame-rate-1920x1088" range="411-413" /> <!-- v90%=1.0 -->
+        </MediaCodec>
+        <MediaCodec name="c2.exynos.h264.decoder.secure" type="video/avc" update="true">
+            <!-- measured 90%:323-418 med:331 SLOW N=6 -->
+            <Limit name="measured-frame-rate-320x240" range="330-368" /> <!-- v90%=1.1 -->
+            <!-- measured 90%:262-456 med:311 SLOW N=8 -->
+            <Limit name="measured-frame-rate-720x480" range="311-346" /> <!-- v90%=1.3 -->
+            <!-- measured 90%:332-623 med:365 SLOW N=8 -->
+            <Limit name="measured-frame-rate-1280x720" range="365-455" /> <!-- v90%=1.4 -->
+            <!-- measured 90%:273-285 med:274 N=6 -->
+            <Limit name="measured-frame-rate-1920x1088" range="442-449" /> <!-- v90%=1.0 -->
+        </MediaCodec>
+        <MediaCodec name="c2.exynos.hevc.decoder" type="video/hevc" update="true">
+            <!-- measured 90%:321-588 med:331 SLOW N=8 -->
+            <Limit name="measured-frame-rate-352x288" range="866-886" /> <!-- v90%=1.4 -->
+            <!-- measured 90%:298-473 med:324 SLOW N=8 -->
+            <Limit name="measured-frame-rate-640x360" range="863-883" /> <!-- v90%=1.3 -->
+            <!-- measured 90%:291-475 med:320 SLOW N=8 -->
+            <Limit name="measured-frame-rate-720x480" range="789-809" /> <!-- v90%=1.3 -->
+            <!-- measured 90%:369-717 med:372 SLOW N=8 -->
+            <Limit name="measured-frame-rate-1280x720" range="725-726" /> <!-- v90%=1.4 -->
+            <!-- measured 90%:313-338 med:317 N=6 -->
+            <Limit name="measured-frame-rate-1920x1080" range="415-416" /> <!-- v90%=1.0 -->
+            <!-- measured 90%:112-130 med:128 N=8 -->
+            <Limit name="measured-frame-rate-3840x2160" range="86-87" /> <!-- v90%=1.1 -->
+        </MediaCodec>
+        <MediaCodec name="c2.exynos.hevc.decoder.secure" type="video/hevc" update="true">
+            <!-- measured 90%:321-588 med:331 SLOW N=8 -->
+            <Limit name="measured-frame-rate-352x288" range="331-435" /> <!-- v90%=1.4 -->
+            <!-- measured 90%:298-473 med:324 SLOW N=8 -->
+            <Limit name="measured-frame-rate-640x360" range="324-376" /> <!-- v90%=1.3 -->
+            <!-- measured 90%:291-475 med:320 SLOW N=8 -->
+            <Limit name="measured-frame-rate-720x480" range="319-372" /> <!-- v90%=1.3 -->
+            <!-- measured 90%:369-717 med:372 SLOW N=8 -->
+            <Limit name="measured-frame-rate-1280x720" range="371-514" /> <!-- v90%=1.4 -->
+            <!-- measured 90%:313-338 med:317 N=6 -->
+            <Limit name="measured-frame-rate-1920x1080" range="316-325" /> <!-- v90%=1.0 -->
+            <!-- measured 90%:112-130 med:128 N=8 -->
+            <Limit name="measured-frame-rate-3840x2160" range="151-162" /> <!-- v90%=1.1 -->
+        </MediaCodec>
+        <MediaCodec name="c2.exynos.vp8.decoder" type="video/x-vnd.on2.vp8" update="true">
+            <!-- measured 90%:301-488 med:323 SLOW N=8 -->
+            <Limit name="measured-frame-rate-320x180" range="1028-1041" /> <!-- v90%=1.3 -->
+            <!-- measured 90%:298-465 med:310 SLOW N=8 -->
+            <Limit name="measured-frame-rate-640x360" range="893-934" /> <!-- v90%=1.2 -->
+            <!-- measured 90%:335-574 med:359 SLOW N=8 -->
+            <Limit name="measured-frame-rate-1280x720" range="405-406" /> <!-- v90%=1.3 -->
+            <!-- measured 90%:307-326 med:316 N=6 -->
+            <Limit name="measured-frame-rate-1920x1080" range="169-171" /> <!-- v90%=1.0 -->
+        </MediaCodec>
+        <MediaCodec name="c2.exynos.vp9.decoder" type="video/x-vnd.on2.vp9" update="true">
+            <!-- measured 90%:290-516 med:322 SLOW N=8 -->
+            <Limit name="measured-frame-rate-320x180" range="861-862" /> <!-- v90%=1.3 -->
+            <!-- measured 90%:289-534 med:329 SLOW N=8 -->
+            <Limit name="measured-frame-rate-640x360" range="694-703" /> <!-- v90%=1.4 -->
+            <!-- measured 90%:306-458 med:356 N=8 -->
+            <Limit name="measured-frame-rate-1280x720" range="385-388" /> <!-- v90%=1.2 -->
+            <!-- measured 90%:237-260 med:246 N=8 -->
+            <Limit name="measured-frame-rate-1920x1080" range="246-249" /> <!-- v90%=1.0 -->
+        </MediaCodec>
+        <MediaCodec name="c2.exynos.vp9.decoder.secure" type="video/x-vnd.on2.vp9" update="true">
+            <!-- measured 90%:290-516 med:322 SLOW N=8 -->
+            <Limit name="measured-frame-rate-320x180" range="322-392" /> <!-- v90%=1.3 -->
+            <!-- measured 90%:289-534 med:329 SLOW N=8 -->
+            <Limit name="measured-frame-rate-640x360" range="314-393" /> <!-- v90%=1.4 -->
+            <!-- measured 90%:306-458 med:356 N=8 -->
+            <Limit name="measured-frame-rate-1280x720" range="356-405" /> <!-- v90%=1.2 -->
+            <!-- measured 90%:237-260 med:246 N=8 -->
+            <Limit name="measured-frame-rate-1920x1080" range="377-386" /> <!-- v90%=1.0 -->
+        </MediaCodec>
+        <MediaCodec name="c2.android.h263.decoder" type="video/3gpp" update="true">
+            <!-- measured [1599-1618] lower-upper [406-4327] median * 1.5 [2413] -->
+            <Limit name="measured-frame-rate-176x144" range="894-1967" />
+            <!-- measured [1181-1195] lower-upper [300-3196] median * 1.5 [1782] -->
+            <Limit name="measured-frame-rate-352x288" range="660-1453" />
+        </MediaCodec>
+        <MediaCodec name="c2.android.avc.decoder" type="video/avc" update="true">
+            <!-- measured [608-636] lower-upper [157-1675] median * 1.5 [934] -->
+            <Limit name="measured-frame-rate-320x240" range="346-761" />
+            <!-- measured [108-113] lower-upper [28-299] median * 1.5 [166] -->
+            <Limit name="measured-frame-rate-720x480" range="62-136" />
+            <!-- measured [49-51] lower-upper [13-136] median * 1.5 [75] -->
+            <Limit name="measured-frame-rate-1280x720" range="28-62" />
+            <!-- measured [31-31] lower-upper [8-84] median * 1.5 [47] -->
+            <Limit name="measured-frame-rate-1920x1080" range="17-38" />
+        </MediaCodec>
+        <MediaCodec name="c2.android.hevc.decoder" type="video/hevc" update="true">
+            <!-- measured [553-556] lower-upper [140-1492] median * 1.5 [832] -->
+            <Limit name="measured-frame-rate-352x288" range="308-678" />
+            <!-- measured [336-338] lower-upper [85-907] median * 1.5 [506] -->
+            <Limit name="measured-frame-rate-640x360" range="187-412" />
+            <!-- measured [307-313] lower-upper [78-835] median * 1.5 [465] -->
+            <Limit name="measured-frame-rate-720x480" range="173-380" />
+            <!-- measured [119-119] lower-upper [30-321] median * 1.5 [179] -->
+            <Limit name="measured-frame-rate-1280x720" range="66-146" />
+            <!-- measured [63-65] lower-upper [16-173] median * 1.5 [96] -->
+            <Limit name="measured-frame-rate-1920x1080" range="36-79" />
+        </MediaCodec>
+        <MediaCodec name="c2.android.mpeg4.decoder" type="video/mp4v-es" update="true">
+            <!-- measured [1814-1824] lower-upper [460-4893] median * 1.5 [2729] -->
+            <Limit name="measured-frame-rate-176x144" range="1011-2224" />
+            <!-- measured [1201-1208] lower-upper [304-3239] median * 1.5 [1806] -->
+            <Limit name="measured-frame-rate-480x360" range="669-1472" />
+            <!-- measured [477-490] lower-upper [122-1301] median * 1.5 [726] -->
+            <Limit name="measured-frame-rate-1280x720" range="269-592" />
+        </MediaCodec>
+        <MediaCodec name="c2.android.vp8.decoder" type="video/x-vnd.on2.vp8" update="true">
+            <!-- measured [1246-1248] lower-upper [315-3354] median * 1.5 [1871] -->
+            <Limit name="measured-frame-rate-320x180" range="693-1525" />
+            <!-- measured [541-543] lower-upper [137-1459] median * 1.5 [813] -->
+            <Limit name="measured-frame-rate-640x360" range="301-663" />
+            <!-- measured [147-147] lower-upper [37-396] median * 1.5 [221] -->
+            <Limit name="measured-frame-rate-1280x720" range="82-180" />
+            <!-- measured [58-58] lower-upper [15-157] median * 1.5 [87] -->
+            <Limit name="measured-frame-rate-1920x1080" range="32-71" />
+        </MediaCodec>
+        <MediaCodec name="c2.android.vp9.decoder" type="video/x-vnd.on2.vp9" update="true">
+            <!-- measured [965-978] lower-upper [246-2615] median * 1.5 [1458] -->
+            <Limit name="measured-frame-rate-320x180" range="540-1188" />
+            <!-- measured [561-561] lower-upper [142-1510] median * 1.5 [842] -->
+            <Limit name="measured-frame-rate-640x360" range="312-686" />
+            <!-- measured [244-246] lower-upper [62-661] median * 1.5 [368] -->
+            <Limit name="measured-frame-rate-1280x720" range="137-300" />
+            <!-- measured [146-156] lower-upper [38-407] median * 1.5 [227] -->
+            <Limit name="measured-frame-rate-1920x1080" range="84-185" />
+        </MediaCodec>
+        <MediaCodec name="c2.sec.mpeg4.decoder" type="video/mp4v-es" update="true">
+            <!-- measured [2109-2184] lower-upper [542-5773] median * 1.5 [3220] -->
+            <Limit name="measured-frame-rate-176x144" range="1193-2624" />
+            <!-- measured [1512-1513] lower-upper [382-4069] median * 1.5 [2269] -->
+            <Limit name="measured-frame-rate-480x360" range="841-1849" />
+            <!-- measured [557-558] lower-upper [141-1502] median * 1.5 [837] -->
+            <Limit name="measured-frame-rate-1280x720" range="310-683" />
+        </MediaCodec>
+    </Decoders>
+
+    <Encoders>
+        <MediaCodec name="c2.exynos.h264.encoder" type="video/avc" update="true">
+            <!-- measured 90%:197-328 med:270 N=10 -->
+            <Limit name="measured-frame-rate-320x240" range="509-515" /> <!-- v90%=1.3 -->
+            <!-- measured 90%:96-175 med:110 SLOW N=10 -->
+            <Limit name="measured-frame-rate-720x480" range="307-315" /> <!-- v90%=1.3 -->
+            <!-- measured 90%:59-113 med:63 SLOW N=10 -->
+            <Limit name="measured-frame-rate-1280x720" range="205-213" /> <!-- v90%=1.4 -->
+            <!-- measured 90%:35-87 med:37 SLOW N=10 -->
+            <Limit name="measured-frame-rate-1920x1080" range="119-121" /> <!-- v90%=1.6 -->
+        </MediaCodec>
+        <MediaCodec name="c2.exynos.hevc.encoder" type="video/hevc" update="true">
+            <!-- measured 90%:208-343 med:240 SLOW N=10 -->
+            <Limit name="measured-frame-rate-320x240" range="857-862" /> <!-- v90%=1.3 -->
+            <!-- measured 90%:110-182 med:113 SLOW N=10 -->
+            <Limit name="measured-frame-rate-720x480" range="439-441" /> <!-- v90%=1.3 -->
+            <!-- measured 90%:63-105 med:66 SLOW N=10 -->
+            <Limit name="measured-frame-rate-1280x720" range="237-239" /> <!-- v90%=1.3 -->
+            <!-- measured 90%:35-74 med:38 SLOW N=10 -->
+            <Limit name="measured-frame-rate-1920x1080" range="119-120" /> <!-- v90%=1.4 -->
+            <!-- measured 90%:35-74 med:38 SLOW N=10 -->
+            <Limit name="measured-frame-rate-3840x2160" range="33-34" /> <!-- v90%=1.4 -->
+        </MediaCodec>
+        <MediaCodec name="c2.exynos.vp8.encoder" type="video/x-vnd.on2.vp8" update="true">
+            <!-- measured 90%:175-339 med:244 N=10 -->
+            <Limit name="measured-frame-rate-320x180" range="831-837" /> <!-- v90%=1.4 -->
+            <!-- measured 90%:124-543 med:148 SLOW N=12 variance:2.1 -->
+            <Limit name="measured-frame-rate-640x360" range="527-528" />
+            <!-- measured 90%:62-122 med:65 SLOW N=10 -->
+            <Limit name="measured-frame-rate-1280x720" range="213-214" /> <!-- v90%=1.4 -->
+            <!-- measured 90%:38-75 med:39 SLOW N=10 -->
+            <Limit name="measured-frame-rate-1920x1080" range="105-107" /> <!-- v90%=1.4 -->
+        </MediaCodec>
+        <MediaCodec name="c2.exynos.vp9.encoder" type="video/x-vnd.on2.vp9" update="true">
+            <!-- measured 90%:228-332 med:284 N=10 -->
+            <Limit name="measured-frame-rate-320x180" range="876-882" /> <!-- v90%=1.2 -->
+            <!-- measured 90%:142-225 med:151 SLOW N=10 -->
+            <Limit name="measured-frame-rate-640x360" range="564-574" /> <!-- v90%=1.3 -->
+            <!-- measured 90%:64-132 med:66 SLOW N=10 -->
+            <Limit name="measured-frame-rate-1280x720" range="232-235" /> <!-- v90%=1.4 -->
+            <!-- measured 90%:37-67 med:40 SLOW N=10 -->
+            <Limit name="measured-frame-rate-1920x1080" range="119-120" /> <!-- v90%=1.3 -->
+            <!-- measured 90%:37-67 med:40 SLOW N=10 -->
+            <Limit name="measured-frame-rate-3840x2160" range="33-34" /> <!-- v90%=1.3 -->
+        </MediaCodec>
+        <MediaCodec name="c2.android.h263.encoder" type="video/3gpp" update="true">
+            <!-- measured 90%:440-443 med:440 N=2 -->
+            <Limit name="measured-frame-rate-176x144" range="334-1604" /> <!-- v90%=1.0 -->
+        </MediaCodec>
+        <MediaCodec name="c2.android.avc.encoder" type="video/avc" update="true">
+            <!-- measured 90%:345-350 med:345 N=2 -->
+            <Limit name="measured-frame-rate-320x240" range="145-696" /> <!-- v90%=1.0 -->
+            <!-- measured 90%:101-103 med:101 N=2 -->
+            <Limit name="measured-frame-rate-720x480" range="59-285" /> <!-- v90%=1.0 -->
+            <!-- measured 90%:54-55 med:54 N=2 -->
+            <Limit name="measured-frame-rate-1280x720" range="34-163" /> <!-- v90%=1.0 -->
+            <!-- measured 90%:28-30 med:29 N=2 -->
+            <Limit name="measured-frame-rate-1920x1080" range="15-72" /> <!-- v90%=1.0 -->
+        </MediaCodec>
+        <MediaCodec name="c2.android.hevc.encoder" type="video/hevc" update="true">
+            <!-- measured 90%:461-471 med:462 N=2 -->
+            <Limit name="measured-frame-rate-320x240" range="40-193" /> <!-- v90%=1.0 -->
+            <!-- measured 90%:461-471 med:462 N=2 -->
+            <Limit name="measured-frame-rate-720x280" range="26-29" /> <!-- v90%=1.0 -->
+        </MediaCodec>
+        <MediaCodec name="c2.android.mpeg4.encoder" type="video/mp4v-es" update="true">
+            <!-- measured 90%:461-471 med:462 N=2 -->
+            <Limit name="measured-frame-rate-176x144" range="305-1464" /> <!-- v90%=1.0 -->
+        </MediaCodec>
+        <MediaCodec name="c2.android.vp8.encoder" type="video/x-vnd.on2.vp8" update="true">
+            <!-- measured 90%:49-87 med:50 SLOW N=2 -->
+            <Limit name="measured-frame-rate-320x180" range="83-399" /> <!-- v90%=1.3 -->
+            <!-- measured 90%:55-57 med:56 N=2 -->
+            <Limit name="measured-frame-rate-640x360" range="43-204" /> <!-- v90%=1.0 -->
+            <!-- measured 90%:34-35 med:34 N=2 -->
+            <Limit name="measured-frame-rate-1280x720" range="12-55" /> <!-- v90%=1.0 -->
+            <!-- measured 90%:29-31 med:30 N=2 -->
+            <Limit name="measured-frame-rate-1920x1080" range="9-41" /> <!-- v90%=1.0 -->
+        </MediaCodec>
+    </Encoders>
+</MediaCodecs>

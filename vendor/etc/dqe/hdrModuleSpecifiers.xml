@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HDR_MODULE_SPECIFIERS>
+    <hdr-module-specifier layer="1,7">
+        <tonemap-module-specifier>
+            <mod-en>tm-en</mod-en>
+            <mod-x>tm-x</mod-x>
+            <mod-y>tm-y</mod-y>
+            <mod-x-bit>27</mod-x-bit>
+            <mod-y-bit>20</mod-y-bit>
+            <mod-minx-bit>11</mod-minx-bit>
+        </tonemap-module-specifier>
+        <pq-module-specifier>
+            <mod-en>eotf-en</mod-en>
+            <pq-en>pq-en</pq-en>
+            <coef>eotf-normal-coef</coef>
+            <shift>eotf-normal-shift</shift>
+        </pq-module-specifier>
+        <eotf-module-specifier>
+            <mod-en>eotf-en</mod-en>
+            <mod-x>eotf-x</mod-x>
+            <mod-y>eotf-y</mod-y>
+            <mod-x-bit>10</mod-x-bit>
+            <mod-y-bit>16</mod-y-bit>
+            <mod-minx-bit>0</mod-minx-bit>
+        </eotf-module-specifier>
+        <gm-module-specifier>
+            <mod-en>gm-en</mod-en>
+            <coef>gm</coef>
+        </gm-module-specifier>
+    </hdr-module-specifier>
+</HDR_MODULE_SPECIFIERS>

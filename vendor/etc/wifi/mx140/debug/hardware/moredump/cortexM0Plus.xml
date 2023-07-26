@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+(c) SCSC 2020, moredump definitions for Cortex M0 processor. This just acknowledges the existence of the M0+
+-->
+
+<processor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.samsung.com ../Processor.xsd"
+           name="Cortex M0+"
+           comment="Cortex M0+ Processor/co-processors">
+</processor>

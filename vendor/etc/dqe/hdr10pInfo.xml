@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HDR10P_INFO>
+    <hdr-node num="1">
+        <capa>INNER</capa>
+        <transfer-function>SRGB</transfer-function>
+        <filename>/vendor/etc/dqe/hdr10pLut_Inner_SRGB.xml</filename>
+    </hdr-node>
+    <hdr-node num="2">
+        <capa>OUTER</capa>
+        <filename>/vendor/etc/dqe/hdr10pLut_Default.xml</filename>
+    </hdr-node>
+    <hdr-node num="default">
+        <filename>/vendor/etc/dqe/hdr10pLut_Default.xml</filename>
+    </hdr-node>
+</HDR10P_INFO>

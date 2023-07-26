@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HLG_INFO>
+    <hdr-node num="1">
+        <capa>INNER</capa>
+        <transfer-function>SRGB</transfer-function>
+        <filename>/vendor/etc/dqe/hlgLut_Inner_SRGB.xml</filename>
+    </hdr-node>
+    <hdr-node num="2">
+        <capa>OUTER</capa>
+        <filename>/vendor/etc/dqe/hlgLut_Default.xml</filename>
+    </hdr-node>
+    <hdr-node num="default">
+        <filename>/vendor/etc/dqe/hlgLut_Default.xml</filename>
+    </hdr-node>
+</HLG_INFO>

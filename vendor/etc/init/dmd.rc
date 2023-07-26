@@ -1,0 +1,5 @@
+# DM daemon
+service DM-daemon /vendor/bin/dmd
+    class main
+    user system
+    group system radio media_rw sdcard_rw everybody

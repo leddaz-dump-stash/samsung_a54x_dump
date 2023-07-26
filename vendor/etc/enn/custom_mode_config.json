@@ -1,0 +1,27 @@
+{
+    "PERF_CONFIG_LIST": [
+        // Sample of boost-on-execute mode
+        {
+            "ID": 100001,                               // ID; available range 10001~9999999
+            "PERF_CONFIG": {
+                "SCHED_COMMON_TARGET_LATENCY": 1,       // Target E2E latency (us)
+                "FREQ_MINLOCK_NPU": 0,                  // NPU frequency minlock (KHz)
+                "FREQ_MINLOCK_DNC": 0,                  // DNC frequency minlock (KHz)
+                "FREQ_MINLOCK_DSP": 0,                  // DSP frequency minlock (KHz)
+                "FREQ_MINLOCK_GPU": 1210000,            // GPU frequency minlock (KHz)
+                "FREQ_MINLOCK_CPU_BIG": 0,              // CPU big cluster frequency (KHz)
+                "FREQ_MINLOCK_CPU_MID": 1344000,        // CPU middle cluster frequency (KHz)
+                "FREQ_MINLOCK_CPU_LIT": 0,              // CPU little cluster frequency (KHz)
+                "FREQ_MINLOCK_MIF": 1352000,            // MIF frequency minlock (KHz)
+                "FREQ_MINLOCK_INT": 0,                  // INT frequency minlock (KHz)
+                "MEM_MO_SCEN_ID_CUSTOMIZED": 1,         // Customized MO scenario ID; 0(default), 1(heavy), 2(performance)
+            },
+            "TIME_RANGE": {
+                "MODEL_OPEN": "off",
+                "MODEL_EXECUTE": "on",
+                "MODEL_CLOSE": "off",
+            },
+            "TIME_RANGE_COALESCING": "off",
+        },
+    ],
+}

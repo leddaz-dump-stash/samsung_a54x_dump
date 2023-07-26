@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HDR10P_LUT>
+  <hdr-module layer="1,7">
+    <hdr10p-node max-luminance="10000">
+      <mod-en>1</mod-en>
+      <tm-en>1</tm-en>
+      <tm-coef>269,694,61</tm-coef>
+      <tm-rngx>0,0</tm-rngx>
+      <tm-rngy>0,0</tm-rngy>
+    </hdr10p-node>
+  </hdr-module>
+</HDR10P_LUT>

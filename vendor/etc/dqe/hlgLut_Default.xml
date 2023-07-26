@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HLG_LUT>
+  <hdr-module layer="1,7">
+    <hlg-node>
+      <mod-en>1</mod-en>
+      <eotf-en>1</eotf-en>
+      <pq-en>0</pq-en>
+      <eotf-normal-coef>0</eotf-normal-coef>
+      <eotf-normal-shift>16</eotf-normal-shift>
+      <tm-en>1</tm-en>
+      <tm-coef>235,708,81</tm-coef>
+      <tm-rngx>0,0</tm-rngx>
+      <tm-rngy>256,256</tm-rngy>
+    </hlg-node>
+  </hdr-module>
+</HLG_LUT>
