@@ -1,0 +1,13 @@
+{
+    "SERVICE_NAME": "BIXBYVISION",
+    "SERVICE_VERSION": "3.5",
+    "MODEL_TYPE": "detector",
+    "COMPILER_NAME": "ENN",
+    "COMPUTE_UNIT": "NPU",
+    "COMPILER_OPTION": "quartz",
+    "COMPILER_VERSION": "2.0.20.a",
+    "MODEL_VERSION": "6.7.0",
+    "MODEL_FOLDER": "/vendor/etc/saiv/image_understanding/db/",
+    "MODEL_TYPE_ABBR": "OD",
+    "MODEL_FILES": "slens_detector_cnn.tflite"
+}

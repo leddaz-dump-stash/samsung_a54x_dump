@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<VERSION value="20220308"/>
+<LIST>
+    <package name="com.estsoft.alzip">
+        <policy name="PEM_3RDPARTY"/>
+    </package>
+    <package name="com.alphainventor.filemanager">
+        <policy name="PEM_3RDPARTY"/>
+    </package>
+</LIST>

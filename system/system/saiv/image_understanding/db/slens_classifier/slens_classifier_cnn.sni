@@ -1,0 +1,13 @@
+{
+    "SERVICE_NAME": "BIXBYVISION",
+    "SERVICE_VERSION": "3.5",
+    "MODEL_TYPE": "classifier",
+    "COMPILER_NAME": "ENN",
+    "COMPUTE_UNIT": "NPU",
+    "COMPILER_OPTION": "quartz",
+    "COMPILER_VERSION": "2.0.20.a",
+    "MODEL_VERSION": "6.7.0",
+    "MODEL_FOLDER": "/vendor/etc/saiv/image_understanding/db/",
+    "MODEL_TYPE_ABBR": "CLS",
+    "MODEL_FILES": "slens_classifier_cnn.tflite"
+}
